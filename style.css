@@ -1,0 +1,81 @@
+body{
+    background-color:black;
+}
+
+.clock{
+     color:#4bcffa;
+     text-align: center;
+     font-size: 40px;
+     font-family: 'Lora', serif;
+     letter-spacing: 3px;
+}
+
+.date{
+    color:#55efc4;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    letter-spacing: 3px;
+}
+
+.stopwatch{
+    text-align: center;
+    color: #e84118;
+    font-size: 90px;
+    font-family: 'Lora', serif;
+}
+
+p{
+    text-align: center;
+    font-size: 80px;
+    color:#55E6C1;
+    font-family: 'Lora', serif;
+    letter-spacing: 3px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height:40px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button::after{
+    content: ' ';
+    position:absolute;
+    left:0px;
+    bottom: -5px;
+    border-radius: 4px;
+    width:0px;
+    height: 4px;
+    background-color: white;
+    transition: 1s;
+}
+
+button:hover::after{
+    width:100px;
+}
+button:nth-child(2){
+    margin: 0px 30px;
+}
+
