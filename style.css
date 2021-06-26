@@ -4,7 +4,7 @@ body{
 
 .clock{
      color:#4bcffa;
-     text-align: center;
+     text-align: right;
      font-size: 40px;
      font-family: 'Lora', serif;
      letter-spacing: 3px;
@@ -12,7 +12,7 @@ body{
 
 .date{
     color:#55efc4;
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     font-family: 'Lora', serif;
     letter-spacing: 3px;
